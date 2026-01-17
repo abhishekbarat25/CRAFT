@@ -216,10 +216,23 @@ make COMPANY=newcompany
 
 ### Problem: "pdflatex: command not found"
 
-**Solution:** Install LaTeX:
-- **macOS:** `brew install basictex`
-- **Ubuntu/Debian:** `sudo apt-get install texlive-latex-base`
-- **Windows:** Download MiKTeX from https://miktex.org
+**Solution:** Install LaTeX
+
+See our comprehensive **[Installation Guide](INSTALLATION.md)** with automated scripts and detailed instructions for all platforms.
+
+**Quick install:**
+- **Linux:** `./scripts/install-latex-linux.sh`
+- **macOS:** `./scripts/install-latex-mac.sh`
+- **Windows:** `.\scripts\install-latex-windows.bat`
+
+**Or manual installation:**
+- [Linux Guide](installation/LINUX.md) - Ubuntu, Fedora, Arch, openSUSE
+- [macOS Guide](installation/MAC.md) - Homebrew, MacTeX, MacPorts
+- [Windows Guide](installation/WINDOWS.md) - MiKTeX, TeX Live, Chocolatey
+
+**After installation:**
+- [Verify your setup](installation/VERIFICATION.md)
+- Return here to continue with Step 3
 
 ### Problem: PDF is more than one page
 

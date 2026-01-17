@@ -127,6 +127,18 @@ The skeleton template includes comprehensive inline documentation to guide you t
 - `pdflatex` command
 - `make` utility
 
+### Installation
+
+New to LaTeX? See our **[Installation Guide](docs/INSTALLATION.md)** for:
+- Automated one-command installation scripts
+- Detailed platform-specific guides (Linux, macOS, Windows)
+- Troubleshooting and verification steps
+
+**Quick install:**
+- **Linux:** `./scripts/install-latex-linux.sh`
+- **macOS:** `./scripts/install-latex-mac.sh`
+- **Windows:** `.\scripts\install-latex-windows.bat`
+
 ## Makefile Commands
 
 | Command | Description |
