@@ -1,4 +1,4 @@
-# Company-Specific Resume Generator
+# **C**ustom **R**esume **A**pplication **F**ormatting **T**ool
 
 A LaTeX-based system for generating tailored resumes with a single command. Create company-specific versions of your resume that emphasize different skills and experiences based on what each company values.
 
