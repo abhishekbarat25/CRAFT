@@ -1,4 +1,4 @@
-# **C**ustom **R**esume **A**pplication **F**ormatting **T**ool
+# Company-Specific Resume Generator
 
 A LaTeX-based system for generating tailored resumes with a single command. Create company-specific versions of your resume that emphasize different skills and experiences based on what each company values.
 
@@ -126,6 +126,18 @@ The skeleton template includes comprehensive inline documentation to guide you t
 - LaTeX distribution (TeX Live, MiKTeX, or MacTeX)
 - `pdflatex` command
 - `make` utility
+
+### Installation
+
+New to LaTeX? See our **[Installation Guide](docs/INSTALLATION.md)** for:
+- Automated one-command installation scripts
+- Detailed platform-specific guides (Linux, macOS, Windows)
+- Troubleshooting and verification steps
+
+**Quick install:**
+- **Linux:** `./scripts/install-latex-linux.sh`
+- **macOS:** `./scripts/install-latex-mac.sh`
+- **Windows:** `.\scripts\install-latex-windows.bat`
 
 ## Makefile Commands
 

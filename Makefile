@@ -9,7 +9,7 @@ OUT_DIR  = output
 
 # IMPORTANT: Set your name here (this will be used in the output filename)
 # Example: NAME = John_Doe
-NAME     ?= name
+NAME     = Abhishek_Barat
 
 # Company to generate resume for (from src/companies/ folder)
 # Override with: make COMPANY=google
