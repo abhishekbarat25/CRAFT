@@ -1,0 +1,31 @@
+# Ignore archive folder (personal/development files)
+archive/
+
+# Ignore all LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+
+# Ignore the internals folders where the junk files go
+**/internals/
+
+# Ignore everything in the output folder by default...
+output/*
+
+# ...BUT do not ignore PDF files
+!output/**/*.pdf
+!output/*.pdf
+
+# Keep the folder structure even if empty (optional)
+!.gitkeep
+# Claude Code settings
+.claude/
+
+# Archive directory
+archive/

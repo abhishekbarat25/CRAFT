@@ -1,0 +1,54 @@
+\documentclass{resume}
+
+% =============================================================================
+% COMPANY-SPECIFIC RESUME - MAIN DOCUMENT
+% =============================================================================
+% The Makefile passes \currcompany variable to load company-specific files.
+% Files loaded: src/companies/{company}/{company}_objective.tex
+%               src/companies/{company}/{company}_experience.tex
+%
+% Usage: make COMPANY=google
+% =============================================================================
+
+% Default to apple if no company specified
+\providecommand{\currcompany}{apple}
+
+% --- DOCUMENT CONTENT ---
+\begin{document}
+
+% =============================================================================
+% COMMON SECTIONS (same for all companies)
+% =============================================================================
+\input{src/common/header}
+\vspace{-14pt}
+% =============================================================================
+% COMPANY-SPECIFIC OBJECTIVE
+% =============================================================================
+% Loads: src/companies/{company}/{company}_objective.tex
+\input{src/companies/\currcompany/\currcompany_objective}
+\vspace{-4pt}
+% =============================================================================
+% WORK EXPERIENCE
+% =============================================================================
+% Loads: src/companies/{company}/{company}_experience.tex
+\section{Work Experience}
+\vspace{-2pt}
+\input{src/companies/\currcompany/\currcompany_experience}
+\input{src/common/education}
+\vspace{-6pt}
+\input{src/common/skills}
+% =============================================================================
+% OPTIONAL SECTIONS
+% Uncomment any sections you want to include
+% =============================================================================
+
+% \section{Projects}
+% \input{src/common/projects}
+
+% \section{Publications}
+% \input{src/common/publications}
+
+% \section{Certifications}
+% \input{src/common/certifications}
+
+\end{document}
